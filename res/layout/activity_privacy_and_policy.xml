@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Privacy_and_policyActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#3F51B5"
+            android:text="Privacy and Policy"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="
+1.Privacy Law and Mobile Apps
+2.
+Do I Need a Privacy Policy for My iOS App?
+3.
+Do I Need a Privacy Policy for My Android App?
+4.
+Cross-Platform Mobile App Privacy Policy
+5.
+Privacy Policy for iOS Apps
+5.1.
+1. Check Which Privacy Laws Apply to You
+5.2.
+2. Identify What Data Your App Collects
+5.3.
+3. Explain How You Collect User Data
+5.4.
+4. Explain How You Use User Data
+5.5.
+5. Confirm Recipients of User Data are Compliant with Apple's Policies
+5.6.
+6. Explain Your Data Retention and Deletion Policies
+6.
+Privacy Policy for Android Apps
+6.1.
+1. Check Which Privacy Laws Apply to You
+6.2.
+2. Identify What Data Your App Collects
+6.3.
+3. Explain How You Collect User Data
+6.4.
+4. Explain How You Use User Data
+6.5.
+5. Explain How You Share User Data
+6.6.
+Where to Display Your Mobile App Privacy Policy
+6.7.
+Apple App Store
+6.8.
+Google Play Store
+7.
+Summary"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>
